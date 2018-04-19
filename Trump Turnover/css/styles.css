@@ -1,0 +1,135 @@
+.content-container {
+  margin: auto;
+}
+
+.headline-container {
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0px auto 10px auto;
+}
+
+.topper {
+  max-width: 360px;
+  margin: 20px auto 0px auto;
+}
+
+#topper-under {
+  margin-top: 0px;
+}
+
+.byline {
+  font-family: Arial;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.graphic {
+  width: 350px;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+#people-65 {
+  height: 6.5px;
+  width: 6.5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: auto;
+  border: 3px solid white;
+}
+
+#people-4000 {
+  height: 400px;
+  width: 400px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+}
+
+#turnover {
+  margin-top: 40px;
+}
+
+img.timeline-face {
+
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+p.timeline-name {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p.timeline-position {
+  display: inline;
+  font-size: 18px;
+}
+
+p.timeline-leave {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.icon {
+  width: 30px;
+  margin: 40px auto;
+  display: block;
+}
+
+.sources {
+  font-size: 10px;
+  color: #b4b4b4;
+}
+
+@media screen and (min-width: 500px) {
+  .content-container {
+    max-width: 650px;
+    margin: auto;
+  }
+
+  .headline-container {
+    max-width: 700px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  .topper {
+    max-width: 480px;
+    margin: 20px auto 0px auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 60px;
+  }
+  .graphic {
+    width: 420px;
+  }
+}
